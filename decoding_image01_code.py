@@ -2,6 +2,7 @@ from pyzbar.pyzbar import decode
 import cv2
 import numpy as np
 
+
 # Read the image
 image = cv2.imread("image01.png")
 
